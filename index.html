@@ -34,7 +34,7 @@
     padding: 14px 20px;
     text-decoration: none;
     position: relative;
-    
+    font-size: 15px;
   }
   .navbar a:hover {
     background-color:red;
@@ -61,11 +61,6 @@
     text-align: left;
     color: white;
   }
-  .additional-text {
-    margin-left: 20px; 
-    font-style: italic;
-    color: black;
-  }
   .main-text button {
     border: none;
     padding: 10px;
@@ -78,13 +73,10 @@
     background-color: #ddd;
     color: black;
   }
-
-   
   .logo {
     position: absolute;
     top: 10px;
     left: 10px;
-    
   }
   .logo img {
     width: 50px; 
@@ -104,6 +96,33 @@
   }
   .navbar button:hover {
     background-color:black;
+  }
+  /* Adjustments for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .main-text {
+      left: 2%;
+      width: 65%;
+    }
+    .main-text h1 {
+      font-size: 24px;
+    }
+    .main-text p {
+      font-size: 14px;
+    }
+    .navbar {
+      padding: 5px;
+    }
+    .navbar a {
+      font-size: 13px;
+      padding: 9px;
+    }
+    .main-text button {
+      font-size: 14px;
+      padding: 6px 16px;
+    }
+    .logo img {
+      width: 40px;
+    }
   }
 </style>
 </head>
@@ -136,8 +155,7 @@
 
 <script>
 document.getElementById("resumeButton").addEventListener("click", function() {
-  // Change "resume.pdf" to your actual resume file name
-  window.location.href = " ANKUSH resume.pdf";
+  window.location.href = "ANKUSH resume.pdf";
 });
 </script>
 
