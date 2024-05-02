@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("portfolio.jpg"); /* Add your background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  .bg-img {
+    height:100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+  }
+  .navbar {
+    overflow: hidden;
+    position: static;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white ;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    position: relative;
+    font-size: 15px;
+    transition: background-color 0.1s; /* Add transition for smooth hover effect */
+  }
+  
+  .navbar a:hover {
+    background-color:red;
+    color:black;
+  }
+  
+  .navbar a:active {
+    background-color: black; /* Change background color when clicked */
+  }
+  
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black background */
+    border-radius: 10px; /* Add some rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  }
+  h1 {
+    color: #fff;
+    text-align: center;
+  }
+  h2 {
+    color: #36342e; /* Change the color to gold */
+  }
+  h3 {
+    color: #ccc;
+  }
+  p {
+    margin-bottom: 10px;
+    color: #ddd;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .contact-info {
+    margin-top: 20px;
+  }
+  .contact-info a {
+    color: #d6d0a8; /* Change the color to gold */
+    text-decoration: none;
+  }
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  .logo img {
+    width: 40px;
+  }
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .logo img {
+    width: 50px; 
+    height: auto; 
+  }
+    .navbar button {
+      float: right;
+      display: block;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 20px;
+      background-color: red;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .navbar button:hover {
+      background-color:black;
+    }
+    @media only screen and (max-width: 600px) {
+      .main-text {
+        left: 2%;
+        width: 65%;
+      }
+      .main-text h1 {
+        font-size: 24px;
+      }
+      .main-text p {
+        font-size: 14px;
+      }
+      .navbar {
+        padding: 5px;
+      }
+      .navbar a {
+        font-size: 13px;
+        padding: 9px;
+      }
+      .main-text button {
+        font-size: 14px;
+        padding: 6px 16px;
+      }
+      .logo img {
+        width: 40px;
+      }
+      footer {
+        background-color: #333;
+        color: #333;
+        text-align: center;
+        padding: 20px 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+    }
+</style>
+</head>
+<body>
+  <div class="bg-img">
+    <div class="navbar">
+      <a href="#home">Hom</a>
+      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      <a class="nav-link active" aria-current="page" href="about.html">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#blog">Blog</a>
+      <button id="resumeButton">RESUME</button> 
+    </div>
+  </div>
+  <div class="logo">
+    <img src="2.jpg">
+
+<div class="container">
+  <h1>About</h1>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate and dedicated student pursuing Bachelor of Computer Applications (BCA) with a keen interest in exploring various facets of computer science. With a strong foundation in programming, software development, and database management, I aspire to contribute meaningfully to the ever-evolving field of technology.</p>
+  </section>
+
+  <section id="education" style="text-align: right;">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Bachelor of Computer Applications (BCA)</strong><br>
+          Rayat Bahra University, Mohali <br>
+          Expected Graduation: [july, 2026]
+      </li>
+      <li><strong>Higher Secondary Education (12th Grade)</strong><br>
+          [B.V.N], [Khambi, Palwal]<br>
+          Year of Completion: [2023]
+      </li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming Languages: C, C++, Java, Python</li>
+      <li>Web Development: HTML, CSS, JavaScript</li>
+      <li>Database Management: SQL, MySQL</li>
+      <li>Problem-Solving and Analytical Skills</li>
+      <li>Team Collaboration and Communication</li>
+    </ul>
+  </section>
+
+  <section id="projects" style="text-align: right;">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Student Management System</strong><br>
+          Developed a comprehensive student management system using Java and MySQL, allowing administrators to manage student records, course details, and grades efficiently.
+      </li>
+      <li><strong>E-commerce Website</strong><br>
+          Designed and implemented an e-commerce website using HTML, CSS, and JavaScript, enabling users to browse products, add items to cart, and complete purchases securely.
+      </li>
+      <li><strong>Library Management Application</strong><br>
+          Created a library management application in C++, enabling librarians to manage book inventory, issue and return books, and generate reports on library activities.
+      </li>
+      <li><strong>Data Analysis with Python</strong><br>
+          Utilized Python and data analysis libraries such as Pandas and Matplotlib to analyze and visualize datasets, gaining insights into trends and patterns.
+      </li>
+    </ul>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Awarded the <strong>gold medal</strong> for outstanding academic performance in High Jump competition.</li>
+      <li>Secured [AIR-2] in [Mathematics Olympiad].</li>
+      <li>Participated in [Event/Competition/Workshop] and received commendation for [Your Role/Contribution].</li>
+    </ul>
+  </section>
+
+  <section id="certifications" style="text-align: right;">
+    <h2>Certifications</h2>
+    <ul>
+      <li><strong>Build a website with WordPress</strong><br>
+          Issuing Organization: Coursera<br>
+          Date of Completion: 23, Sep, 2023
+      </li>
+    </ul>
+  </section>
+
+  <section id="extracurricular">
+    <h2>Extracurricular Activities</h2>
+    <ul>
+      <li>Member of the <strong>Ashoka House</strong> at <strong>B.V.N. Sr. Sec. School</strong>.</li>
+    </ul>
+  </section>
+
+  <section id="contact" style="text-align: right;">
+    <h2>Contact Information</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:Ankushvashistha01@gmail.com">Ankushvashistha01@gmail.com</a><br>
+         Phone: 9728911812<br>
+         LinkedIn: <a href="https://www.linkedin.com/in/ankush-vashistha-745821293/">LinkedIn</a><br>
+         GitHub: <a href="https://github.com/dashboard">GitHub</a>
+      </p>
+    </div>
+  </section>
+</div>
+<footer>
+  &copy; 2024 Ankush Portfolio &#9829;
+</footer>
+
+
+</body>
+</html>
